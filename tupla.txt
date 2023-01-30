@@ -1,0 +1,50 @@
+n
+(base)
+CHRISTIAN@DESKTOP-2H49QH5 MINGW64 ~ (master)
+$ ipython
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: #Se tiene la tupla
+
+In [2]: Nombredeautosydatos = ('Lamborghini','Carlos','CDMX','Ferrari'/
+   ...: ,'Antonio','Morelos','AstonMartin','Roberto','Mazatlan')
+  File "<ipython-input-2-f481db814e8f>", line 2
+    ,'Antonio','Morelos','AstonMartin','Roberto','Mazatlan')
+    ^
+SyntaxError: invalid syntax
+
+
+In [3]:  Nombredeautosydatos = ('Lamborghini','Carlos','CDMX','Ferrari'/
+   ...:    ...: ,'Antonio','Morelos','AstonMartin','Roberto','Mazatlan')
+  File "<ipython-input-3-f481db814e8f>", line 2
+    ,'Antonio','Morelos','AstonMartin','Roberto','Mazatlan')
+    ^
+SyntaxError: invalid syntax
+
+
+In [4]: Nombredeautosydatos = ('Lamborghini','Carlos','CDMX','Ferrari','Antonio
+   ...: ')
+
+In [5]: #Se tiene la tupla convertida entupla
+
+In [6]: listautosydatos = ['Lamborghini','Carlos','CDMX','Ferrari','Antonio]
+  File "<ipython-input-6-ad8ce65480ca>", line 1
+    listautosydatos = ['Lamborghini','Carlos','CDMX','Ferrari','Antonio]
+                                                                        ^
+SyntaxError: EOL while scanning string literal
+
+
+In [7]:    ...:
+
+In [8]: listautosydatos=['Lamborghini','Carlos','CDMX','Ferrari','Antonio']
+
+In [9]: #El siguiente es el diccionario
+
+In [10]: dictpersonal={"Pedro":"enfermero","Arthur":"Investigador","Ricardo":"I
+    ...: N"}
+
+
+
+
