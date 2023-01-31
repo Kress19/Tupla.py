@@ -1,0 +1,29 @@
+$ ipython
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+
+# Arreglo con vector unidimensional
+In [1]: import numpy as np
+
+In [2]: a=np.array ([3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23])
+
+In [3]: print(a)
+[ 3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23]
+
+#Arreglo con numeros del 0 al 4
+
+In [4]: m=([0,1,2],[3,4,0],[1,2,3])
+
+In [5]: print(m)
+([0, 1, 2], [3, 4, 0], [1, 2, 3])
+
+#Arreglo con sort
+
+In [10]: f = np.array([0,1,2,3,4])
+
+
+In [12]: print(np.sort(f))
+[0 1 2 3 4]
+
+In [13]:
