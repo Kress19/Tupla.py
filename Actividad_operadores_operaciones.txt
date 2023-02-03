@@ -1,0 +1,39 @@
+In [1]:
+
+In [1]: #ACTIVIDAD 1 Edad doble
+
+In [2]: r=12
+
+In [3]: r*=2
+
+In [4]: print(r)
+24
+
+In [5]: Edaddoble=24
+
+In [6]: Edaddoble//=2
+
+In [7]: print(Edaddoble)
+12
+
+In [8]: #Actividad 2 la edad de mi hermana
+
+In [9]: Miedadactual=6
+
+In [10]: Edaddemihermana=Miedadactual + 15
+
+In [11]: Edaddemihermana*=3
+
+In [12]: print(Edaddemihermana)
+63
+In [13]: #Comparacion if and else
+
+In [14]: x=100
+
+In [15]: y=200
+
+In [16]: if x>y: 
+        ...: print(a)
+        ...:else:
+        ...:print(b)
+200
